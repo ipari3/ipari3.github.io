@@ -24,6 +24,7 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
 
   </nav>
 
