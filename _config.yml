@@ -27,6 +27,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: No twitter yet
 github_username:  ipari3
 
+category_dir: category/
+tag_dir: tag/
+
 # Build settings
 theme: minima
 plugins:
