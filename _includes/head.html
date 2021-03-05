@@ -15,6 +15,10 @@
   {% if page.url and site.baseurl %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   {% endif %}
+  
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% endif %}
 
   <link rel="stylesheet" href="{{ '/public/css/poole.css' | absolute_url }}">
   <link rel="stylesheet" href="{{ '/public/css/syntax.css' | absolute_url }}">
