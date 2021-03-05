@@ -27,8 +27,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: No twitter yet
 github_username:  ipari3
 
-category_dir: category/
-tag_dir: tag/
+###category_dir: category/
+###tag_dir: tag/
+
+# Math equation
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 # Build settings
 theme: minima
